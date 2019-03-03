@@ -1,0 +1,8 @@
+appledeiMac:~ apple$ gem install railsgem install rails -v 5.0.0
+ERROR:  Can't use --version w/ multiple gems. Use name:ver instead.
+appledeiMac:~ apple$ gem update --system
+ERROR:  While executing gem ... (Gem::Exception)
+    Unable to require openssl, install OpenSSL and rebuild Ruby (preferred) or use non-HTTPS sources
+appledeiMac:~ apple$ xcode-select --install
+xcode-select: error: command line tools are already installed, use "Software Update" to install updates
+appledeiMac:~ apple$ 
